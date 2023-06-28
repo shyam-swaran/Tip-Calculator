@@ -44,8 +44,8 @@ function unselectAll(){
     }
 };
 function reset(){
-    bill.value=0;
-    nop.value=0;
+    bill.value="";
+    nop.value="";
     unselectAll();
     tipamount.innerText="0.00";
     totalamount.innerText="0.00";
