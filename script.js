@@ -49,4 +49,7 @@ function reset(){
     unselectAll();
     tipamount.innerText="0.00";
     totalamount.innerText="0.00";
+    billval=0;
+    nopval=0;
+    percent=0;
 }
